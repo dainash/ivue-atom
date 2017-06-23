@@ -1,12 +1,12 @@
 {
   "name": "ivue",
   "main": "./lib/ivue-atom",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "a vue and iview extension",
   "keywords": [
-      "vue",
-      "iview",
-      "beautify"
+    "vue",
+    "iview",
+    "beautify"
   ],
   "activationCommands": {
     "atom-workspace": "ivue-atom:format"
