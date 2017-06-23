@@ -1,0 +1,27 @@
+".text.html.vue":
+  "Vue Component":
+    "prefix": "V"
+    "body": """
+      <template>
+        
+      </template>
+
+      <script>
+      export default {
+          name: '${1:name}',
+          data: function() {
+              return {}
+          },
+          methods: {}
+      }
+      </script>
+
+      <style scoped>
+      </style>
+
+    """
+  "Router link":
+    "prefix": "router-link"
+    "body": """
+      <router-link :to="{ name: '', params: {} }"></router-link>
+    """

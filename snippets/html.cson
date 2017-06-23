@@ -1,0 +1,8 @@
+".text.html.vue":
+    "function init":
+        "prefix": "function"
+        "body": """
+            function ${1}() {
+                ${2}
+            }
+                """

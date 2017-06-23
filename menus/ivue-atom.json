@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "vue beautify",
+        "command": "ivue-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ivue-atom",
+          "submenu": [
+            {
+              "label": "vue beautify",
+              "command": "ivue-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

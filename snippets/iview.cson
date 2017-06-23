@@ -1,0 +1,61 @@
+".text.html.vue":
+  "Quickly generate iview row":
+    "prefix": "Row"
+    "body": """
+      <Row>
+          $1
+      </Row>
+    """
+  "Quickly generate iview span":
+    "prefix": "Col"
+    "body": """
+      <Col span="$1">
+          $2
+      </Col>
+    """
+  "Quickly generate iview button":
+    "prefix": "Button"
+    "body": """
+      <Button type="${1:primary}">
+          $2
+      </Button>
+    """
+  "Quickly generate iview input":
+    "prefix": "Input"
+    "body": """
+      <Input v-model="$1" placeholder="$2"></Input>
+    """
+  "Quickly generate iview input number":
+    "prefix": "Inputnumber"
+    "body": """
+      <Input-number max="${1:10}" min="${2:1}" v-model="${3:model}"></Input-number>
+    """
+  "Quickly generate iview table":
+    "prefix": "Table"
+    "body": """
+      <Table :columns="${1:column}" :data="${2:data}"></Table>
+    """
+  "Quickly generate iview select":
+    "prefix": "Select"
+    "body": """
+      <Select v-model="${1:model}">
+          <Option v-for="${2:item} in ${3:list}" :value="${4:value}" :key="${5:item}"><Option>
+      </Select>
+    """
+  "Quickly generate iview datetime picker":
+    "prefix": "Datepicker"
+    "body": """
+      <Date-picker type="datetime" format="yyyy/MM/dd HH:mm" placeholder="选择日期和时间"></Date-picker>
+    """
+  "Quickly generate iview upload":
+    "prefix": "Upload"
+    "body": """
+      <Upload action="$1">
+          <Button type="ghost" icon="ios-cloud-upload-outline">上传文件</Button>
+      </Upload>
+    """
+  "Quickly generate iview message":
+    "prefix": "Message"
+    "body": """
+      this.$Message.info('$1');
+    """
