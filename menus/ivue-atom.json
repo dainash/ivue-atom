@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "vue beautify",
-        "command": "ivue-atom:toggle"
+        "command": "ivue-atom:format"
       }
     ]
   },
@@ -16,7 +16,7 @@
           "submenu": [
             {
               "label": "vue beautify",
-              "command": "ivue-atom:toggle"
+              "command": "ivue-atom:format"
             }
           ]
         }
