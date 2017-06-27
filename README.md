@@ -2,7 +2,7 @@
 
 ### show case
 
-![demo](https://raw.githubusercontent.com/dainash/ivue/master/images/record.gif)
+![demo](https://raw.githubusercontent.com/dainash/ivue-atom/master/images/record.gif)
 
 ### features
 
