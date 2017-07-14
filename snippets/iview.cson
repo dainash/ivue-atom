@@ -64,7 +64,7 @@
   "Quickly generate iview formitem":
     "prefix": "Item"
     "body": """
-      <Form-item label="{1: label}">
+      <Form-item label="${1: label}">
         $2
       </Form-item>
     """
