@@ -54,6 +54,20 @@
           <Button type="ghost" icon="ios-cloud-upload-outline">上传文件</Button>
       </Upload>
     """
+  "Quickly generate iview form":
+    "prefix": "Form"
+    "body": """
+      <Form :model="${1:model}">
+        $2
+      </Form>
+    """
+  "Quickly generate iview formitem":
+    "prefix": "Item"
+    "body": """
+      <Form-item label="{1: label}">
+        $2
+      </Form-item>
+    """
   "Quickly generate iview message":
     "prefix": "Message"
     "body": """

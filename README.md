@@ -33,4 +33,6 @@ apm install ivue
 |   Select    | `<Select v-model="model"><Option v-for="item in list" :value="value" :key="item"></Option></Select>` |
 | Datepicker  | `<Date-picker type="datetime" format="yyyy/MM/dd HH:mm" placeholder="选择日期和时间"></Date-picker>` |
 |   Upload    | `<Upload action=""><Button type="ghost" icon="ios-cloud-upload-outline">上传文件</Button></Upload>` |
+|   Form      | `<Form :model="model"></Form>`                  |
+|   Item      | `<Form-item label="label"></Form-item>`                  |
 |   Message   | `this.$Message.info('');`                  |
