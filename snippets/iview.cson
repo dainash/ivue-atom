@@ -39,7 +39,7 @@
     "prefix": "Select"
     "body": """
       <Select v-model="${1:model}">
-          <Option v-for="${2:item} in ${3:list}" :value="${4:value}" :key="${5:item}"><Option>
+          <Option v-for="${2:item} in ${3:list}" :value="${4:value}" :key="${5:item}"></Option>
       </Select>
     """
   "Quickly generate iview datetime picker":
