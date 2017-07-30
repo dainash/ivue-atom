@@ -1,7 +1,7 @@
 {
   "name": "ivue",
   "main": "./lib/ivue-atom",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "a vue and iview extension",
   "keywords": [
     "vue",
